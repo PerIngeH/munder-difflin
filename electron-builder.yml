@@ -2,15 +2,6 @@ appId: in.munderdiffl.app
 productName: Munder Difflin
 copyright: Copyright © 2026 Chaitanya Giri
 
-# Where electron-updater looks for new versions (latest*.yml + assets on GitHub
-# releases). The release workflow still uploads assets itself (--publish never);
-# this block only stamps app-update.yml into the packaged app so the updater
-# knows which repo to poll.
-publish:
-  provider: github
-  owner: chaitanyagiri
-  repo: munder-difflin
-
 # Bake the update toast's "What's new" list straight into latest*.yml.
 #
 # Without this, electron-updater has nothing to read: parseUpdateInfo yaml-loads
