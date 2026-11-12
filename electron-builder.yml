@@ -2,6 +2,9 @@ appId: in.munderdiffl.app
 productName: Munder Difflin
 copyright: Copyright © 2026 Chaitanya Giri
 
+# Fork: no update feed stamped into packaged builds
+publish: null
+
 # Bake the update toast's "What's new" list straight into latest*.yml.
 #
 # Without this, electron-updater has nothing to read: parseUpdateInfo yaml-loads
